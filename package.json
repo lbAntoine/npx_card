@@ -1,6 +1,6 @@
 {
   "name": "lbantoine",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "A personnal card for Antoine Le Bras",
   "main": "cli.mjs",
   "scripts": {

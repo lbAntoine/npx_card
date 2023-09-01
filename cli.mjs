@@ -57,9 +57,9 @@ const questions = [{
 const data = {
   name: chalk.bold.green('             Antoine Le Bras'),
   handle: chalk.white('@lbAntoine'),
-  work: `${chalk.white('Software developer at')} ${chalk
+  work: `${chalk.white('Junior software developer in')} ${chalk
     .hex('#2b82b2')
-    .bold('ExpertNet')}`,
+    .bold('Aix-en-Provence')}`,
   twitter: chalk.gray("https://twitter.com/") + chalk.cyan("tomato_wizard"),
   github: chalk.gray("https://github.com/") + chalk.green("lbAntoine"),
   linkedin: chalk.grey("https://linkedin.com/in/") + chalk.blue("antoine-le-bras"),
@@ -87,10 +87,10 @@ const me = boxen(
     ``,
     `${data.labelCard}  ${data.npx}`,
     ``,
-    `${chalk.italic(
-      "I am currently looking for new opportunities,"
-    )}`,
-    `${chalk.italic("my inbox is always open. Whether you have")}`,
+    //`${chalk.italic(
+    //"I am currently looking for new opportunities,"
+    //)}`,
+    `${chalk.italic("My inbox is always open. Whether you have")}`,
     `${chalk.italic("a question or just want to say hi, I'll try")}`,
     `${chalk.italic("my best to get back to you!")}`,
   ].join("\n"),
